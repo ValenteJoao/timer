@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Slab', serif;
+  text-decoration: none;
+  border: none;
+}
+
+body {
+  background: #0f0c29;
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  height: 100vh;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.visor {
+  height: 50%;
+  width: 90%;
+  padding: 5px;
+  background-color: #0f0c29bf;
+  border-radius: 30px;
+  color: #dedced;
+  font-size: 5vw;
+  margin: 4.5vh;
+  border: 5px solid #ffffff00;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer {
+  position: relative;
+  background-color: #dedced;
+  height: 55vh;
+  width: 45vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  box-shadow: 4px 7px 8px -2px rgba(0, 0, 0, 0.82);
+}
+
+.botoes {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  margin: 5px;
+}
+
+.botao {
+  font-size: 1.5vw;
+  padding: 5px;
+  border-radius: 15px;
+  height: 7.7vh;
+  width: 10.15vw;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.botao:hover {
+  font-size: 20px;
+}
+
+
+
+.i {
+  background-color: green;
+  color: #dedced;
+}
+
+.p {
+  background-color: red;
+  color: #dedced;
+}
+
+.r {
+  background-color: #0f0c29bf;
+  color: #dedced;
+}
+
+.tempo {
+  padding-bottom: 5px;
+}
